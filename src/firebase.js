@@ -13,7 +13,5 @@ const firebaseConfig = {
 };
 
 const app = initializeApp(firebaseConfig);
-
-// 📦 필요한 기능 export
 export const auth = getAuth(app);
 export const db = getFirestore(app);
